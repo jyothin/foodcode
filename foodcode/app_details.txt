@@ -1,0 +1,4 @@
+http://food-code.eu-gb.mybluemix.net
+App Key: bf2b81d7-a02e-4d9b-8a83-183581a2ab81
+App Secret: bea34fc240d35375ca5fa396ecf5cd265f47e7c9
+

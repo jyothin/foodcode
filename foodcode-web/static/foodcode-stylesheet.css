@@ -1,0 +1,70 @@
+html{
+  width: 100%;
+  height: 100%;
+}
+body{
+  font-family: "Arial";
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: rgb(200,050,050);
+  color: rgb(255,255,255);
+}
+  div.container{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -50px;
+    position: relative;
+  }
+    div.header{
+      position: relative;
+      top: 0;
+      margin: 0 auto;
+      margin-top: 0px;
+      width: 100%;
+      height: 100px;
+      text-align: center;
+      background-color: rgb(170,050,050);
+    }
+      table.header{
+        /*position: absolute;*/
+        top: 0px;
+        left: 0px;
+        margin: 0 auto;
+        text-align: center;
+      }
+        td.header{
+          padding: 2px 2px 2px 2px;
+          margin: auto;
+        }
+
+    div.content{
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+        min-width: 1024px;
+        min-height: 480px;
+        padding: 10px;
+        padding-bottom: 30px;
+        background-color: rgb(200,050,050);
+        background-image: url("bg_pizza.jpeg");
+        background-repeat: round;
+    }
+
+    div.footer{
+      position: relative;
+      bottom: 0;
+      margin: 0 auto;
+      margin-bottom: 0px;
+      width: 100%;
+      /*height: 100%;*/
+      text-align: center;
+      background-color: rgb(170,050,050);
+    }
+      table.footer{
+        margin: 0 auto;
+        text-align: center;
+        font-size: 14px;
+      }

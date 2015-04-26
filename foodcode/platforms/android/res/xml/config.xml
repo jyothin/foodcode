@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.foodcode.foodcode" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="loglevel" value="DEBUG" />
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="IBMBluemixHybrid">
+        <param name="android-package" value="com.ibm.mobile.services.cordova.core.CDVIBMBluemix" />
+    </feature>
+    <feature name="IBMCloudCodeHybrid">
+        <param name="android-package" value="com.ibm.mobile.services.cordova.cloudcode.CDVIBMCloudCode" />
+    </feature>
+    <feature name="IBMDataHybrid">
+        <param name="android-package" value="com.ibm.mobile.services.cordova.data.CDVIBMData" />
+    </feature>
+    <feature name="IBMQueryHybrid">
+        <param name="android-package" value="com.ibm.mobile.services.cordova.data.CDVIBMQuery" />
+    </feature>
+    <feature name="IBMPushHybrid">
+        <param name="android-package" value="com.ibm.mobile.services.cordova.push.CDVIBMPush" />
+    </feature>
+    <allow-intent href="market:*" />
+    <name>FoodCode</name>
+    <description>
+        Food Code is a mobile app that tells you the calorie count of the food you are consuming by taking a picture of the food.
+    </description>
+    <author email="jyothin.madari.nabla@gmail.com" href="http://food-code.eu-gb.mybluemix.net">
+        Hungry Mind on a Diet
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+</widget>
