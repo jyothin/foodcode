@@ -1,0 +1,18 @@
+{
+    "com.ibm.mobile.cordova.ibmbluemix": {
+        "source": {
+            "type": "registry",
+            "id": "com.ibm.mobile.cordova.ibmbluemix"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "com.ibm.mobile.cordova.ibmdata": {
+        "source": {
+            "type": "registry",
+            "id": "com.ibm.mobile.cordova.ibmdata"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}
